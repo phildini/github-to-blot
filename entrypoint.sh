@@ -1,3 +1,5 @@
+#!/bin/sh
+
 set -u
 
 git checkout "${GITHUB_REF:11}"
