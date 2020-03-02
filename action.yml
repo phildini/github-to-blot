@@ -1,0 +1,15 @@
+name: "Publish to blot.im"
+description: 'Publishing a github repo to a blot.im site'
+author: 'phildini'
+branding:
+  icon: git-commit
+  color: blue
+inputs:
+  BLOT_USERNAME:
+    description: 'Username for the blot.im site'
+    required: true
+  BLOT_TOKEN:
+    description: 'Token for the blot.im site, available from https://blot.im/settings/client/git'
+    required: true
+runs:
+  main: 'entrypoint.sh'
