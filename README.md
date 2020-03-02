@@ -1,2 +1,2 @@
 # github-to-blot
-An action for pushing to blot.im from github
+An action for publishing to blot.im from github
