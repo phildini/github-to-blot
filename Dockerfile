@@ -1,4 +1,4 @@
-FROM alpine
+FROM makocchi/alpine-git-curl-jq:latest
 
 LABEL "com.github.actions.name"="Deploy to blot.im"
 LABEL "com.github.actions.description"="Automatically publish a github repo to a blot.im site"
